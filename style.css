@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(1, 1, 78);
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35%;
+    width: 35%;
+    margin-top: 2%;
+}
+
+#headshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#backButton{
+    display: block; 
+    width: 5%;
+    height: 8%;
+    margin-left: 2%;
+}
+
+
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border: solid red 7px;
+    border-radius: 20px;
+    width: 20%;
+}
+
+label{
+    color: white;
+    padding: 10px;
+    font-family: "CopperPlate", fantasy;
+}
+
+.labels  {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+}
+
+#team {
+    padding-left: 15%;
+}
+
+#submit {
+    margin-left: 40%;
+    background: #016ABC;
+    color: white;;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: white;
+}
+
+.entryIMG{
+    width: 20%;
+    height: 20%;
+}
+
+.previousEntry{
+    size: 100px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

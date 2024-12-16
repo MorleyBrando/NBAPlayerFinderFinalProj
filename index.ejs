@@ -1,0 +1,36 @@
+<doctype html>
+    <html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> NBA Player Finder </title>
+        <link rel = "stylesheet" href = "/style.css">
+    </head>
+    <body>
+
+        <img id = "logo" src = "/nbaLogo.png" alt = "NBA Logo" width = "200" height>
+
+        <h1 > NBA Statistics Player Finder </h1>
+        <form action = "/playerSearch" method = "post">
+            <div class = "labels">
+            <label for = "firstName"> First Name: </label>
+            <input type = "text" id = "firstName" name = "firstName" required>
+            </div>
+            <br>
+            <div class= "labels">
+            <label for = "lastName"> Last Name: </label>
+            <input type = "text" id = "lastName" name = "lastName" required>
+            </div>
+            
+            <br>
+            <input id = "submit" type = "submit" value = "Find Player">
+        </form>
+
+        <h2> Previous Searches </h2>
+        <%- previousSearches %> 
+
+
+
+    </body>
+    </html>
+
+        

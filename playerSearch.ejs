@@ -1,0 +1,28 @@
+<doctype html>
+    <html lang = "en">
+        <head>
+            <title> Player Bio </title>
+            <link rel = "stylesheet" href = "/style.css">
+        </head>
+
+        <body>
+            <h1> Player Bio </h1>
+            <img id = 'backButton' src = 'backButton.png' alt = 'Back Button' onclick = "window.location.href = '/'">
+            <img id = 'headshot' src = <%= headshot%> alt = "Player Headshot">
+            <h2> Name: <%= name %> </h2>
+            <h2> Positions: <%= positions %> </h2>
+            <h2> Height: <%= height %> </h2>
+            <h2> Weight: <%= weight %> </h2>
+            <h2> Date of Birth: <%= dob %> </h2>
+            <h2> Place of Birth: <%= pob %> </h2>
+            <h2> Date of Death: <%= dod %> </h2>
+            <h2> Draft Info: <%= draft %> </h2>
+            <h2> NBA debut: <%= nbaDebut %> </h2>
+
+            <%- statsTable %>
+            <br>
+            <%- careerStats %>
+
+        </body>
+    </html>
+
